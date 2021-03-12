@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 722669966
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 70817ba34b0b7c21218d430da567724e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d4b13d34a0a3b810ce51f89dea973fd0
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ea0a2779098b5064d8f26afbe3ab37ac, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/Prefab/NPC/Slime_Blue.prefab
+Dependencies:
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_slime/motions/mot_slime@damage.unity3d
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_slime/motions/mot_slime@attack.unity3d
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_slime/models/materials/cha_slime-phong2.unity3d
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_slime/models/cha_slime.unity3d
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_slime/motions/mot_slime@idle.unity3d
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_slime/motions/mot_slime@run.unity3d
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_slime/motions/mot_slime@death.unity3d
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_knight/motions/mot_knight@attack1.unity3d
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_knight/motions/mot_knight@attack2.unity3d

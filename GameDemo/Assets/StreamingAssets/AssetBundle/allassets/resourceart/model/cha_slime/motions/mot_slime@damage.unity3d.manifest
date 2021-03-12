@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3570246499
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 35c621cf219b225dbfb922918faf7cc5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: dd6793dce7a527dbb83dc9000c1739e9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/ResourceArt/Model/cha_slime/Motions/Mot_Slime@Damage.fbx
+Dependencies: []

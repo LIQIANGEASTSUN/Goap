@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 811346874
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a98d895d6215b3f8c729ff1d5fa96966
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4d24bf54f46935ed9e6cf78ac481bb9d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/SpritePackage/Common/icon_box_blue.png
+Dependencies: []

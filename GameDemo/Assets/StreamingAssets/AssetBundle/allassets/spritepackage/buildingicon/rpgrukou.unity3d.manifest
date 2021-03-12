@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 2514117016
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1136537ca513e931953ed7dfc151e742
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4d24bf54f46935ed9e6cf78ac481bb9d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/SpritePackage/BuildingIcon/rpgrukou.png
+Dependencies: []

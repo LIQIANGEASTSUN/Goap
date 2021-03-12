@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3378437214
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7b9ea5413c0682fd640f0d770ef292da
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/ResourceArt/Model/Zj_003_biaozhunnv_02/textures/Zhang_001_01.jpg
+Dependencies: []

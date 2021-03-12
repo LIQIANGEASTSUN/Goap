@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 905509891
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7d8fd4ccfb4ba22b9482a62d2577d2e3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/ResourceArt/Model/cha_slime/Textures/Cha_SlimGreen.tga
+Dependencies: []

@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 2712683914
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a63ce5a0f4f540aad3f41ca9f0afcd07
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0a9c3d214d6e2cd55e94d312b753b3a1
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/UIAnimation/Text.controller
+Dependencies:
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/uianimation/hpvalue.unity3d

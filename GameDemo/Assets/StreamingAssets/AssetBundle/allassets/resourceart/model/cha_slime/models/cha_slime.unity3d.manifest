@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 4163962175
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ad255ef451852c91ce8eaa653c86c146
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 80240e9db7325b92bac5f5e665336ac4
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/ResourceArt/Model/cha_slime/Models/Cha_Slime.fbx
+Dependencies:
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_slime/models/materials/cha_slime-phong2.unity3d

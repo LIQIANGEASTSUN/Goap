@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3419636902
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d856bfb6bfc311c7f81437dd27492cf2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0b04a37228feb7b9c312fb0cfbaa19c4
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/ResourceArt/Model/Zj_003_biaozhunnv_02/Materials/Zhang_001_03.mat
+Dependencies:
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/zj_003_biaozhunnv_02/textures/zhang_001_03.unity3d

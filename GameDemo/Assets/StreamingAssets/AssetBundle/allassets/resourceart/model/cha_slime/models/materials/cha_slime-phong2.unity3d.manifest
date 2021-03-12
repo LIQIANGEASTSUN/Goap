@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3317198142
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9415eca940212d6a2ca009bcbd6097cc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0b04a37228feb7b9c312fb0cfbaa19c4
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/ResourceArt/Model/cha_slime/Models/Materials/Cha_Slime-phong2.mat
+Dependencies:
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_slime/textures/cha_slimgreen.unity3d

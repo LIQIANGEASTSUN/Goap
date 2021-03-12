@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 4208827799
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 87edf0823886f430797a8d17b8fe49f9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0b04a37228feb7b9c312fb0cfbaa19c4
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/ResourceArt/Model/cha_knight/models/Materials/Cha_Knight-Shadow.mat
+Dependencies:
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_knight/textures/shadow.unity3d

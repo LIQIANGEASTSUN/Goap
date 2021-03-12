@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 1388312499
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 26c3534ba86a864fdf4d939800f97303
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0b04a37228feb7b9c312fb0cfbaa19c4
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/ResourceArt/Model/Building/dige/Material/dige_ziyuan.mat
+Dependencies:
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/building/dige/texture/dige_ziyuan.unity3d

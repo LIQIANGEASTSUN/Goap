@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 3019535776
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f9be33139c4f8ce1915ec56d4e73b6d8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4d24bf54f46935ed9e6cf78ac481bb9d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/SpritePackage/Common/Bottom frame04.png
+Dependencies: []

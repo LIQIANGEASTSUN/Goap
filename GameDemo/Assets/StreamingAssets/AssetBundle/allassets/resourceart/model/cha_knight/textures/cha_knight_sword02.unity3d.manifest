@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3215403138
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d08d4c38891d95c2a231faec08c1e29f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/ResourceArt/Model/cha_knight/Textures/Cha_Knight_Sword02.tga
+Dependencies: []

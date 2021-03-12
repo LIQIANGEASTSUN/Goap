@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 2341871949
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: db0e6ca4f42e9298e56d79b26d0244ad
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4d24bf54f46935ed9e6cf78ac481bb9d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/SpritePackage/BuildingIcon/famuchang.png
+Dependencies: []

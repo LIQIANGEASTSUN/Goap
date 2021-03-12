@@ -1,0 +1,6 @@
+﻿编号`名字`类型`预设`移动速度`技能ID1`技能ID2`技能ID3`血量`AI目标
+id`name`type`prefab`speed`skillID`skillID1`skillID2`hp`aiTarget
+int`string`int`string`float`int`int`int`float`int
+10001`qishi`1`Knight`1`10001`-1`-1`50`1
+10010`lanni`1`Slime`1`10010`-1`-1`50`1
+10020`meizi`1`Belle`1.5`10020`-1`-1`50`1

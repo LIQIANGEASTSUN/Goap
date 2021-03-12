@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 60049944
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9963a822fabcb606f91ec3b143d55faa
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/ResourceArt/Model/Building/dige/Texture/dige_ziyuan.tga
+Dependencies: []

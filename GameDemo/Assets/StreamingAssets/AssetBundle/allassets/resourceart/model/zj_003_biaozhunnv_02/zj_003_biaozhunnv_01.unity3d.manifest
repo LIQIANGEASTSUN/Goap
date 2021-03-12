@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 1596049723
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d9dd907cd2902e6d3d0f57d6e4201380
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d658a48349e8e9f17240894a301ec155
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/ResourceArt/Model/Zj_003_biaozhunnv_02/Zj_003_biaozhunnv_01.FBX
+Dependencies:
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/zj_003_biaozhunnv_02/materials/zj_003_biaozhunnv_01.unity3d

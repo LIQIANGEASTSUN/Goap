@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 2433215944
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5cafebac093b82fb5c30d421d8f5203e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e69cf4aea34f06169d815d14bb7707cf
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/ResourceArt/Model/cha_knight/models/Materials/Red.mat
+Dependencies: []

@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 797118578
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cdd1eb417e571d0143fcc2ed3d4016d0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4d24bf54f46935ed9e6cf78ac481bb9d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/SpritePackage/BuildingIcon/daditu_yiji.png
+Dependencies: []

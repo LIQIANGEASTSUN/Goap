@@ -1,0 +1,6 @@
+﻿编号`中文`英文
+id`CN`EN
+string`string`string
+qishi`骑士`Knight
+lanni`烂泥`Slime
+meizi`妹子`Belle

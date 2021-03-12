@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1241020854
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 93ce99219305980ef4a7ea054e35a858
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/ResourceArt/Model/cha_slime/Textures/Cha_SlimBlue.tga
+Dependencies: []

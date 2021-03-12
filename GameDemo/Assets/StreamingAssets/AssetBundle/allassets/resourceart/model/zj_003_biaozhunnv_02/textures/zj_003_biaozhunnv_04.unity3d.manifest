@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2379784818
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 49651e3cbef74c8fb0bc032d2b654ee8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/ResourceArt/Model/Zj_003_biaozhunnv_02/textures/Zj_003_biaozhunnv_04.jpg
+Dependencies: []

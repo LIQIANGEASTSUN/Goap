@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+CRC: 3167616874
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6a6993e19895e971b67c041923dfe944
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b9845eeefa9faaec85befeef69946567
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ea0a2779098b5064d8f26afbe3ab37ac, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/Prefab/NPC/Knight_Blue.prefab
+Dependencies:
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_knight/models/materials/cha_knight-face.unity3d
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_knight/models/materials/cha_knight-shadow.unity3d
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_knight/models/cha_knight.unity3d
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_knight/models/materials/cha_knight-sword02.unity3d
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_knight/motions/mot_knight@damage.unity3d
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_knight/models/materials/cha_knight-bougu.unity3d
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_knight/motions/mot_knight@attack.unity3d
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_knight/motions/mot_knight@idle.unity3d
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_knight/motions/mot_knight@run.unity3d
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_knight/motions/mot_knight@death.unity3d
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_knight/motions/mot_knight@attack1.unity3d
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_knight/motions/mot_knight@attack2.unity3d

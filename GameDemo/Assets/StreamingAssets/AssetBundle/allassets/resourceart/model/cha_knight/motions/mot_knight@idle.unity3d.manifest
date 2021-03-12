@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 8103159
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d89ef3e9fdf1ddb7e0060b6eeb6cd595
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: dd6793dce7a527dbb83dc9000c1739e9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/ResourceArt/Model/cha_knight/Motions/Mot_Knight@Idle.fbx
+Dependencies: []

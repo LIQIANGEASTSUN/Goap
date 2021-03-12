@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 703201355
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1d12b8e3f173a8c2ed4e31d3234c8e0b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4d24bf54f46935ed9e6cf78ac481bb9d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/SpritePackage/Common/btn_qieye.png
+Dependencies: []

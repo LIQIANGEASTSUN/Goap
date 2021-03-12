@@ -1,0 +1,57 @@
+ManifestFileVersion: 0
+CRC: 3601030434
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f6636267fe1941ea6dffebcbccc55f7a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cec1968695b3e02c06208a85e7a37c9e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: c5e3cf419d00a9742aaf98591b99e1c9, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -113659843, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 785a80e93763f458785ec569a3958c04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0b8ded7b89a3ca14b88cb309e1090eb1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9105a02f97964cd4e857c4a822253437, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 84f00dab0f2a994499864c80dcd5b5da, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: aeaa5c5d89f1f044b9d2f4cf67a072cd, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/Prefab/UI/HpControllerPanel.prefab
+Dependencies:
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/uianimation/text.unity3d

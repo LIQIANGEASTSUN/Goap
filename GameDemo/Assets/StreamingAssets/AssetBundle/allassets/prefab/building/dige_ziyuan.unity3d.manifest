@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 2512165425
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a7a500dfd6324019042a0fbead39cd99
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5aebbd669b69b71c6e37ab00bc730a48
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/Prefab/Building/dige_ziyuan.prefab
+Dependencies:
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/building/dige/fbx/dige.unity3d
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/building/dige/material/dige_ziyuan.unity3d

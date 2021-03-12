@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 4082967630
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4a0a124991b4059a2eb5104e7d5343dd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4d24bf54f46935ed9e6cf78ac481bb9d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/SpritePackage/BuildingIcon/xueyuan.png
+Dependencies: []

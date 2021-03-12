@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1251141950
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 364a7bf6243e601c3a90bc193cb6161a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ed89bedca96d2de8c5375462037cc5a3
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/UIAnimation/HpValue.anim
+Dependencies: []

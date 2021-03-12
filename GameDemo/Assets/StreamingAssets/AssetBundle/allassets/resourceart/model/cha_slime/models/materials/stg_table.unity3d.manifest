@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 2952266781
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e686144349896f50f282dbcb7a1c988a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0b04a37228feb7b9c312fb0cfbaa19c4
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/ResourceArt/Model/cha_slime/Models/Materials/Stg_Table.mat
+Dependencies:
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_slime/textures/stg_table.unity3d

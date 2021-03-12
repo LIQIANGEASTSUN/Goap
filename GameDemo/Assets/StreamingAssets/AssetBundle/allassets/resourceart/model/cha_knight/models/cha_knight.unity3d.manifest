@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 4098169519
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9ebf99d60469bff4507ebf84c38cfd15
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f560063ef6cc89bded4585e675c9ff9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/ResourceArt/Model/cha_knight/models/Cha_Knight.fbx
+Dependencies:
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_knight/models/materials/cha_knight-face.unity3d
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_knight/models/materials/cha_knight-shadow.unity3d
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_knight/models/materials/cha_knight-sword02.unity3d
+- G:/MyProject/GameDemo/Assets/StreamingAssets/AssetBundle/allassets/resourceart/model/cha_knight/models/materials/cha_knight-bougu.unity3d

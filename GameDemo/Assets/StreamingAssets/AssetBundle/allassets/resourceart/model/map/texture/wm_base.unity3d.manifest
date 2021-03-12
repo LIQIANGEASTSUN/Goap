@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3785533846
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 26e4d6d3324be3f8d7255b40c0640c06
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/ResourceArt/Model/Map/Texture/WM_base.png
+Dependencies: []

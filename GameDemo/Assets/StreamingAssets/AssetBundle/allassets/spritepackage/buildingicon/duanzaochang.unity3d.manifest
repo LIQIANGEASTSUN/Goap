@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 70337841
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0e4e81745ddad9f40a954ac1d6db276d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4d24bf54f46935ed9e6cf78ac481bb9d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/SpritePackage/BuildingIcon/duanzaochang.png
+Dependencies: []

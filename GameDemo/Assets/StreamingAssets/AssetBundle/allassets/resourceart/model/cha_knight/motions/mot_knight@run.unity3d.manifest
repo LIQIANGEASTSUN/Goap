@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3799939301
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 798785e4937e961e416087fe3757fe4c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: dd6793dce7a527dbb83dc9000c1739e9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+Assets:
+- Assets/AllAssets/ResourceArt/Model/cha_knight/Motions/Mot_Knight@Run.fbx
+Dependencies: []
