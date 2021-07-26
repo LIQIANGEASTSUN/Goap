@@ -7,8 +7,8 @@ public class Person : GoapGoal {
     private float maxVigor = 300;     // 精力上限 ：休息足够时精力
 
     private float energy = 0;         // 能量     ：吃东西增加能量
-    private float minEnergy = 50;     // 能量下限 ：能量低于该值表示饿了
-    private float maxEnergy = 300;    // 能量上限 ：吃饱时能量
+    private float minEnergy = 5;     // 能量下限 ：能量低于该值表示饿了
+    private float maxEnergy = 100;    // 能量上限 ：吃饱时能量
 
     private float homeWork = 0;       // 作业量
     private float minHomeWork = 50;   // 作业量下限
@@ -35,7 +35,7 @@ public class Person : GoapGoal {
     {
         base.Update();
 
-        Eat(-0.2f);
+        Eat(-0.02f);
 
         AddHomeWork(0.1f);
     }
@@ -81,6 +81,7 @@ public class Person : GoapGoal {
     public void Eat(float value)
     {
         energy += value;
+        UnityEngine.Debug.Log(energy);
     }
 
     //是否饿了

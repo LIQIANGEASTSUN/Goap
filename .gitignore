@@ -1,6 +1,22 @@
-/Library/
+GameDemo/Library/*
+GameDemo/obj/*
+GameDemo/Temp/*
+GameDemo/.vs/*
 
-/Temp/
+GoapMaster/Library/*
+GoapMaster/obj/*
+GoapMaster/Temp/*
+GoapMaster/.vs/*
+
+GoapPerson/Library/*
+GoapPerson/obj/*
+GoapPerson/Temp/*
+GoapPerson/.vs/*
+
+GoapTest/Library/*
+GoapTest/obj/*
+GoapTest/Temp/*
+GoapTest/.vs/*
 
 *.csproj
 

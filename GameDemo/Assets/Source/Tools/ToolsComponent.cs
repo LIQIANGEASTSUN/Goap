@@ -13,7 +13,7 @@ public class ToolsComponent {
             Debug.LogError("Parent is null");
             return component;
         }
-        Transform childTr = parent.FindChild(childName);
+        Transform childTr = parent.Find(childName);
         if (childTr == null)
         {
             return component;

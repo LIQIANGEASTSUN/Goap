@@ -67,7 +67,7 @@ public class BuildAssetBundleWindow : EditorWindow {
         GUILayout.Space(20);
         if (GUILayout.Button("清理缓存", GUILayout.ExpandWidth(true), GUILayout.Height(30)))
         {
-            Caching.CleanCache();
+            Caching.ClearCache();
             Debug.LogError("Caching.CleanCache()");
         }
 

@@ -20,7 +20,7 @@ public static class BuildAssetBundle
     //打AS包
     public static void BuildABAsset(int type = 0)
     {
-        Caching.CleanCache();
+        Caching.ClearCache();
         BuildAsset(type);
         BuildScene();
 

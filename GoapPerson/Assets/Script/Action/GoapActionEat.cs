@@ -56,6 +56,7 @@ public class GoapActionEat : GoapAction {
 
             if (!person.HasFood())
             {
+                person.HasFood();
                 Fail();
             }
         }
