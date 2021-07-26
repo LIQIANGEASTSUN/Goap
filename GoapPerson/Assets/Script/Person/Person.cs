@@ -1,22 +1,23 @@
 ﻿using Goap;
+using UnityEngine;
 
 public class Person : GoapGoal {
 
-    private float vigor = 100;        // 精力     ：休息能加精力
-    private float minVigor = 50;      // 精力下限 ：精力低于该值表示累了
-    private float maxVigor = 300;     // 精力上限 ：休息足够时精力
+    private float vigor = 10;        // 精力     ：休息能加精力
+    private float minVigor = 2;      // 精力下限 ：精力低于该值表示累了
+    private float maxVigor = 10;     // 精力上限 ：休息足够时精力
 
-    private float energy = 0;         // 能量     ：吃东西增加能量
-    private float minEnergy = 5;     // 能量下限 ：能量低于该值表示饿了
-    private float maxEnergy = 100;    // 能量上限 ：吃饱时能量
+    private float energy = 5;         // 能量     ：吃东西增加能量
+    private float minEnergy = 2;     // 能量下限 ：能量低于该值表示饿了
+    private float maxEnergy = 10;    // 能量上限 ：吃饱时能量
 
-    private float homeWork = 0;       // 作业量
-    private float minHomeWork = 50;   // 作业量下限
-    private float maxHomeWork = 100;  // 作业量上限
+    private float homeWork = 5;       // 作业量
+    private float minHomeWork = 2;   // 作业量下限
+    private float maxHomeWork = 10;  // 作业量上限
 
-    private float food = 50;          // 食物量
-    private float minFood = 0;        // 食物下限
-    private float maxFood = 100;      // 食物上限
+    private float food = 5;          // 食物量
+    private float minFood = 2;        // 食物下限
+    private float maxFood = 10;      // 食物上限
 
     protected override void Start()
     {
@@ -34,10 +35,6 @@ public class Person : GoapGoal {
     protected override void Update()
     {
         base.Update();
-
-        Eat(-0.02f);
-
-        AddHomeWork(0.1f);
     }
 
     protected override void SetActions()
@@ -80,8 +77,7 @@ public class Person : GoapGoal {
     // 吃
     public void Eat(float value)
     {
-        energy += value;
-        UnityEngine.Debug.Log(energy);
+        energy = Mathf.Clamp(energy + value * Time.deltaTime, 0, maxEnergy);
     }
 
     //是否饿了
@@ -101,7 +97,7 @@ public class Person : GoapGoal {
     // 休息
     public void TakeReset(float value)
     {
-        vigor += value;
+        vigor = Mathf.Clamp(vigor + value * Time.deltaTime, 0, maxVigor);
     }
 
     // 是否累了
@@ -120,7 +116,7 @@ public class Person : GoapGoal {
     #region HomeWork 
     public bool HasHomeWork()
     {
-        return homeWork > maxHomeWork;
+        return homeWork >= maxHomeWork;
     }
 
     public bool homeWorkDone()
@@ -130,7 +126,7 @@ public class Person : GoapGoal {
 
     public void AddHomeWork(float value)
     {
-        homeWork += value;
+        homeWork = Mathf.Clamp(homeWork + value * Time.deltaTime, 0, maxHomeWork);
     }
     #endregion
 
@@ -147,7 +143,7 @@ public class Person : GoapGoal {
 
     public void AddFood(float value)
     {
-        food += value;
+        food = Mathf.Clamp(food + value * Time.deltaTime, 0, maxFood);
     }
     #endregion
 }

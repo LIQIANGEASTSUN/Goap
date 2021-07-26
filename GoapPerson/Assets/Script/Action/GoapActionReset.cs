@@ -43,7 +43,10 @@ public class GoapActionReset : GoapAction {
         {
             Person person = (Person)goapGoal;
 
-            person.TakeReset(1);
+            person.Eat(-0.3f);
+            person.AddHomeWork(1f);
+
+            person.TakeReset(3);
             if (person.IsVigorFull())
             {
                 Finish();

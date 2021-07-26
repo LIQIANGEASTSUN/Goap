@@ -42,6 +42,8 @@ public class GoapActionPlayBall : GoapAction {
         if (goapGoal.GetType() == typeof(Person))
         {
             Person person = (Person)goapGoal;
+            person.Eat(-0.3f);
+            person.AddHomeWork(1f);
             person.TakeReset(-1);
 
             if (person.IsHungry() || person.IsTired())

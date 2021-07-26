@@ -34,16 +34,9 @@ namespace Goap
             return false;
         }
 
-        private float time = 1;
         public virtual void Run()
         {
-            time += Time.deltaTime;
-            if (time < 1)
-            {
-                return;
-            }
-            time = 0;
-            Debug.LogError("Run : " + this.GetType().ToString());
+
         }
 
         public GoapStatus GetPreconditions()

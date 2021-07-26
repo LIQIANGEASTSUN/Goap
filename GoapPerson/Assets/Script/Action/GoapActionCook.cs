@@ -43,7 +43,8 @@ public class GoapActionCook : GoapAction {
         {
             Person person = (Person)goapGoal;
             person.AddFood(1);
-
+            person.Eat(-0.3f);
+            person.AddHomeWork(1f);
             if (person.FoodEnougth())
             {
                 Finish();

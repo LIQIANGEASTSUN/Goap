@@ -42,6 +42,7 @@ public class GoapActionHomeWork : GoapAction {
         if (goapGoal.GetType() == typeof(Person))
         {
             Person person = (Person)goapGoal;
+            person.Eat(-0.3f);
             person.AddHomeWork(-1f);
             if (person.homeWorkDone())
             {

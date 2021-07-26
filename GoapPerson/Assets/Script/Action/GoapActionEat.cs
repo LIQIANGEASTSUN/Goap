@@ -34,7 +34,7 @@ public class GoapActionEat : GoapAction {
         }
 
         base.Run();
-
+        Debug.Log("Runing   : " + Time.realtimeSinceStartup);
         if (target == null)
         {
             Fail();
@@ -48,6 +48,7 @@ public class GoapActionEat : GoapAction {
             {
                 person.Eat(3);
                 person.AddFood(-3);
+                person.AddHomeWork(1f);
             }
             else
             {
