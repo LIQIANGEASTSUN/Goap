@@ -1,17 +1,21 @@
-﻿namespace Goap
+﻿using System;
+
+namespace Goap
 {
-    public class GoapNode
+    public class GoapNode : IComparable<GoapNode>
     {
         private GoapNode parentNode;
         private GoapAction goapAction;
-        private GoapStatus currentStatus;
+        private GoapStatus worldStatus;
+        private GoapStatus goapStatus;
         private float cost;
 
-        public GoapNode(GoapNode parent, GoapAction action, GoapStatus status, float cost)
+        public GoapNode(GoapNode parent, GoapAction action, GoapStatus status, GoapStatus goapStatus, float cost)
         {
             parentNode = parent;
             goapAction = action;
-            currentStatus = status;
+            worldStatus = status;
+            this.goapStatus = goapStatus;
             this.cost = cost;
         }
 
@@ -19,8 +23,15 @@
 
         public GoapAction GoapAction { get { return goapAction; } }
 
-        public GoapStatus CurrentStatus { get { return currentStatus; } }
+        public GoapStatus CurrentStatus { get { return worldStatus; } }
+
+        public GoapStatus GoapStatus { get { return goapStatus; } }
 
         public float Cost { get { return cost; } }
+
+        public int CompareTo(GoapNode other)
+        {
+            return this.cost.CompareTo(other.cost);
+        }
     }
 }
