@@ -23,11 +23,22 @@ namespace Goap
 
         public GoapAction GoapAction { get { return goapAction; } }
 
-        public GoapStatus CurrentStatus { get { return worldStatus; } }
+        public GoapStatus WorldStatus { get { return worldStatus; } }
 
         public GoapStatus GoapStatus { get { return goapStatus; } }
 
         public float Cost { get { return cost; } }
+
+        public bool IsFind()
+        {
+            if (null == goapAction)
+            {
+                return false;
+            }
+
+            GoapStatus preCondition = goapAction.GetPreconditions();
+            return preCondition.IsContainIn(WorldStatus);
+        }
 
         public int CompareTo(GoapNode other)
         {

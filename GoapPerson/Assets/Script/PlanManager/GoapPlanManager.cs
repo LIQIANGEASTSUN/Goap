@@ -35,7 +35,7 @@ public class GoapPlanManager {
 
         if (goapActionQueue.Count <= 0)
         {
-            return goapAction;
+            return null;
         }
 
         goapAction = goapActionQueue.Dequeue();

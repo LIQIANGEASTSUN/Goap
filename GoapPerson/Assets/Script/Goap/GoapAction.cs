@@ -61,7 +61,7 @@ namespace Goap
         {
             target = null;
 
-            Debug.LogError("Finish : " + this.GetType().ToString());
+            Debug.LogError("Finish : " + this.GetType().ToString() + "    " + Time.realtimeSinceStartup);
             if (finisCallBack != null)
             {
                 finisCallBack(this);
@@ -71,7 +71,7 @@ namespace Goap
         protected void Fail()
         {
             target = null;
-            Debug.LogError("Fail : " + this.GetType().ToString());
+            Debug.LogError("Fail : " + this.GetType().ToString() + "    " + Time.realtimeSinceStartup);
 
             if (failCallBack != null)
             {
@@ -81,7 +81,7 @@ namespace Goap
 
         public void SetCallBack(Action<GoapAction> finssCallBack, Action<GoapAction> failCallBack)
         {
-            Debug.LogError("Enter : " + this.GetType().ToString());
+            Debug.LogError("Enter : " + this.GetType().ToString() + "    " + Time.realtimeSinceStartup);
             this.finisCallBack = finssCallBack;
             this.failCallBack = failCallBack;
         }
