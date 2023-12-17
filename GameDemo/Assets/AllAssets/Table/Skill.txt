@@ -1,8 +1,0 @@
-﻿编号`名字`攻击力`攻击范围`技能 CD`攻击作用类型
-id`name`damage`attackRange`coolDown`attackType
-int`string`float`float`float`int
-10001`skill1001`5`1.5`6`1
-10010`skill10010`6`1`6`1
-10020`skill10020`8`2`7`1
-10021`skill10021`8`2`12`1
-10022`skill10022`8`2`19`1
