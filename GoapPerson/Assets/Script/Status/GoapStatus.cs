@@ -103,6 +103,27 @@ namespace Goap
         }
 
         /// <summary>
+        /// 与 a 中的值冲突
+        /// </summary>
+        /// <param name="a"></param>
+        /// <returns></returns>
+        public bool HasAnyConflict(GoapStatus a)
+        {
+            Dictionary<GoapCondition, object> aStatusDic = a.Status();
+            foreach (var pair in statusDic)
+            {
+                object value = null;
+                statusDic.TryGetValue(pair.Key, out value);
+                if (null == value || Equals(value, pair.Value))
+                {
+                    continue;
+                }
+                return true;
+            }
+            return false;
+        }
+
+        /// <summary>
         /// 将 a 的值 加到自身
         /// </summary>
         /// <param name="a"></param>
