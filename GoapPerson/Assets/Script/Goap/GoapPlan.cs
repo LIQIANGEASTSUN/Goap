@@ -53,14 +53,14 @@ namespace Goap
                 GoapStatus goalStatus = node.GoapStatus.Clone();
 
                 GoapStatus effect = action.GetEffect();
-                // !(如果 action 的效果有任何一条满足 目标)，则不可用
+                // 要求 Action 的执行效果 action.effect，至少有一个包含在agentGoal
                 if (!effect.IsAnyContainIn(goalStatus))
                 {
                     continue;
                 }
 
                 GoapStatus preCondition = action.GetPreconditions();
-                // 如果 action 的先决条件与 目标冲突，则不可用
+                // 要求 action 的先决条件与不能与目标冲突
                 if (preCondition.HasAnyConflict(goalStatus))
                 {
                     continue;
